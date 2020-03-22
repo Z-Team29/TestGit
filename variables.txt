@@ -1,0 +1,19 @@
+package variables;
+
+public class Main {
+    int x =0;
+    static Main demo1=new Main();
+    static Main demo2=new Main();
+    static Main demo3=new Main();
+    public static void main(String[] args) {
+	// first demo
+        demo1.x=demo1.x+2;
+        System.out.println("demo1 x="+demo1.x);
+        //second demo
+        demo2.x=demo1.x+4;
+        System.out.println("demo2 x="+demo2.x);
+        //third demo
+        demo3.x=demo2.x+3;
+        System.out.println("demo3 x="+demo3.x);
+    }
+}
